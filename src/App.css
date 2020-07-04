@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+    color:black;
+}
+.container-fluid{
+    color: black;
+}
+Navbar{
+    background:inherit;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+/* DEMO GENERAL ============================== */
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+  }
+  
+  .hover-overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+  }
+  
+  .hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+  }
+  
+  .hover-content {
+    position: relative;
+    z-index: 99;
+  }
+  
+  
+  /* DEMO 1 ============================== */
+  .hover-1 img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    transition: all 0.3s;
+    
+  }
+  
+  .hover-1-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    transition: all 0.4s;
+  }
+  
+  .hover-1 .hover-overlay {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .hover-1-description {
+    transform: translateY(0.5rem);
+    transition: all 0.4s;
+    opacity: 0;
+  }
+  
+  .hover-1:hover .hover-1-content {
+    bottom: 2rem;
+  }
+  
+  .hover-1:hover .hover-1-description {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .hover-1:hover img {
+    left: 0;
+  }
+  
+  .hover-1:hover .hover-overlay {
+    opacity: 0;
+  }
+  #navtext{
+      color:white;
+  }
+ kaka:hover{
+      color:black !important;
+      cursor:pointer;
+  }
+  pol{
+      
+      font-size: 1.4em;
+      
+  }
+  pol:hover{
+    color: purple !important;
+  }
+  .footer{
+      border-top: 2px solid purple;
+  }
+  NavbarToggler{
+      color: purple !important;
+  }
+  .caption{
+    color:black;
+  }
+  .bg{
+    background-image: url(./Componentstyles/assets2/images/logo.svg)   ;
+    background-attachment: fixed;
+    background-size:60vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+
+}
+.heading{
+  font-size:xx-large;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+.bg-navbar{
+  background-color: rgba(81, 83, 172, 0.822);
+
+}

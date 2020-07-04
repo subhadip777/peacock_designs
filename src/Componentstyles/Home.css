@@ -1,0 +1,30 @@
+
+.head{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 5%;
+}
+.head2{
+    font-size: x-large;
+    font-style: italic;
+    margin-top: 5px;
+}
+/* .headercontainer{
+    position: relative;
+    
+} */
+.design1{
+    border-bottom: 2px solid purple;
+}
+.sidebutton{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.text1{
+    font-size: 2em;
+    font-variant: small-caps;
+}
+.text2{
+    font-size: 1.2em;
+}
